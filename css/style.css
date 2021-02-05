@@ -186,13 +186,14 @@ position: relative;
 	
 
 }
-.pediatrics>.container{
+.pediatrics>.container,.check-up>.container{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	padding-top: 200px;
 }
 .pediatrics__boxs{
+	position: relative;
     width: 45%;
 }
 .pediatrics__box1{
@@ -214,4 +215,66 @@ position: relative;
 }
 .pediatrics__content{
 	width: 45%;
+}
+.pediatrics__boxs__img{
+	width: 20%;
+	position: absolute;
+	left: -10%;
+	bottom: -8%;
+	z-index: -3;
+
+}
+.check-up__box2{
+	
+	transform: rotate(-22.5deg);
+	
+}
+.check-up__boxs__img{
+	width: 20%;
+	position: absolute;
+	right: 14%;
+	bottom: -8%;
+	z-index: -3;
+}
+.our-doctors__body{
+	display: block;
+	width: 100%;
+	background-color: #fff;
+	border-radius: 10px;
+
+}
+.our-doctors__header{
+	margin: 0 auto;
+	padding-top: 100px;
+	display: block;
+	justify-content: space-between;
+}
+.our-doctors__header__title{
+	margin: 0 auto;
+	text-align: center;
+}
+.our-doctors__header__text{
+	margin: 0 auto;
+	width: 60%;
+	text-align: center;
+}
+.our-doctors__body__boxs{
+	display: flex;
+
+}
+.our-doctors__body__box{
+	width: 50%;
+	background-color:#E8F6FF;
+}
+.our-doctors__body__content{
+	width: 50%;
+	background-color: #F5F6F8;
+	padding: 40px 80px 40px 40px;
+}
+.our-doctors__body__content__title{
+	font-size: 35px;
+	padding-bottom: 10px;
+}
+.our-doctors__body__content__text{
+	font-size: 14px;
 }
