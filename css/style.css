@@ -241,6 +241,7 @@ position: relative;
 	width: 100%;
 	background-color: #fff;
 	border-radius: 10px;
+	padding-bottom: 30px;
 
 }
 .our-doctors__header{
@@ -261,6 +262,7 @@ position: relative;
 .our-doctors__body__boxs{
 	display: flex;
 
+
 }
 .our-doctors__body__box{
 	width: 50%;
@@ -277,4 +279,28 @@ position: relative;
 }
 .our-doctors__body__content__text{
 	font-size: 14px;
+}
+.our-doctors__body__content2{
+	margin: 0 auto;
+	display: block;
+	text-align: right;
+}
+.footer{
+	background-color:#F5F6F8;
+}
+.footer>.container{
+	margin: 0 auto;
+	display: block;
+	justify-content: center;
+	padding-top: 200px;
+
+}
+.footer__header__title{
+	margin: 0 auto;
+	text-align: center;
+	font-size: 50px;
+}
+.footer__header__text{
+	margin: 0 auto;
+	text-align: center;
 }
