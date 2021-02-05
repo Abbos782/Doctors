@@ -43,6 +43,12 @@ body{
 	font-weight: 500;
 	padding: 30px 0;
 }
+.primary__title{
+	color: #261B59;
+	font-size: 55px;
+	font-weight: 700;
+	line-height: 1.5;
+}
 .navbar{
 	position: relative;
  
@@ -121,14 +127,14 @@ body{
 position: relative;
 	width: 45%;
 }
-.health__content__title{
+/*.health__content__title{
 
 	color: #261B59;
 	font-size: 55px;
 	font-weight: 700;
 	line-height: 1.5;
 
-}
+}*/
 .health__form{
 
 	width: 100%;
@@ -175,4 +181,37 @@ position: relative;
 	bottom: -20%;
 	right: -15%;
 	background-color: #F6F5FA;
+}
+.pediatrics{
+	
+
+}
+.pediatrics>.container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 200px;
+}
+.pediatrics__boxs{
+    width: 45%;
+}
+.pediatrics__box1{
+	width: 400px;
+	height: 400px;
+	background-color: #E3E3E3;
+	z-index: 3;
+   border-radius:none;
+ 
+}
+.pediatrics__box2{
+	background-color: #261B59;
+     position: absolute;
+	width: 400px;
+	height: 400px;
+	transform: rotate(22.5deg);
+	z-index: -2;
+	border-radius:none;
+}
+.pediatrics__content{
+	width: 45%;
 }
