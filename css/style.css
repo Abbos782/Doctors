@@ -36,6 +36,13 @@ body{
 	border-radius: 10px;
 	background-color: #FAFAFC;
 }
+.primary__text{
+	color: #222222;
+	font-size: 15px;
+	line-height: 1.8;
+	font-weight: 500;
+	padding: 30px 0;
+}
 .navbar{
 	position: relative;
  
@@ -99,4 +106,73 @@ body{
 	top: -150%;
 	transform: rotate(45deg);
 	z-index: -20;
+}
+.health{
+	padding-top: 200px;
+
+}
+.health>.container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+}
+.health__content{
+position: relative;
+	width: 45%;
+}
+.health__content__title{
+
+	color: #261B59;
+	font-size: 55px;
+	font-weight: 700;
+	line-height: 1.5;
+
+}
+.health__form{
+
+	width: 100%;
+	padding: 15px 20px;
+	display: flex;
+	justify-content: space-between;
+    background-color: #FFFFFF;
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+.health__form__select{
+	padding: 15px 0;
+	width: 40%;
+	border:none;
+}
+.health__content__img{
+	position: absolute;
+	transform: translate(-40%,-60%);
+	width: 20%;
+	z-index: -88;
+}
+.health__boxs{
+	
+	display: flex;
+	width: 45%;
+
+}
+.health__box3,.health__box2{
+	position: absolute;
+	background-color:#E3E3E3;
+	width: 250px;
+      height: 360px;
+      z-index: 2;
+}
+.health__box3{
+	top: 0%;
+	right: -5%;
+}
+.health__box2{
+	top: 7%;
+}
+.health__box1{
+	width: 470px;
+	position: absolute;
+	bottom: -20%;
+	right: -15%;
+	background-color: #F6F5FA;
 }
