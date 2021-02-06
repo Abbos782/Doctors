@@ -25,6 +25,9 @@ body{
    font-size: 15px;
    font-weight: 500;
 }
+.primary__btn:hover{
+  background-color:#261f19;	
+}
 .primary__span{
 	font-size: 15px;
 	margin-left: 10px;
@@ -286,7 +289,9 @@ position: relative;
 	text-align: right;
 }
 .footer{
+	position: relative;
 	background-color:#F5F6F8;
+	z-index:-11;
 }
 .footer>.container{
 	margin: 0 auto;
@@ -302,5 +307,127 @@ position: relative;
 }
 .footer__header__text{
 	margin: 0 auto;
+	text-align: center;
+}
+.footer__form{
+	
+z-index: 2;
+	margin: 0 auto;
+	width: 60%;
+	padding: 10px 20px;
+	background-color: #fff;
+	border-radius: 10px;
+	display: flex;	
+	justify-content:space-between; 
+	margin-bottom: 100px;
+
+}
+.footer__form__input{
+	width: 70%;	
+}
+.footer__form__input input{
+	width: 60%;	
+	border:none;
+	padding: 10px 10px;	
+}
+.footer__form__text{
+	padding: 0;
+	color: rgba(0,0,0,0.4);
+}
+::placeholder{
+	color: #261B59;
+	font-size: 20px;
+}
+.footer__form__btn{
+	width: 25%;	
+	padding: 0 40px;
+}
+.footer__form__img1,.footer__form__img2{
+	position: absolute;
+	width: 100px;
+	z-index: -1;
+
+}
+.footer__form__img1{
+     top: 28%;
+     left: 64%;
+}
+.footer__form__img2{
+	top: 60%;
+	left: 30%;
+}
+.footer__buttom{
+	border-top: 1px solid #261B59;
+	padding: 30px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.footer__buttom__logo{
+	width: 20%;
+}
+.footer__buttom__logo img{
+	width: 70%;
+}
+.footer__buttom-list{
+	width: 40%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.footer__buttom__item a{
+	color:#261B59;
+	font-weight: 600;
+
+}
+.footer__buttom__item a:hover{
+	color:blue;
+}
+.footer__buttom__link a{
+	color:#261B59;
+	font-weight: 600;
+	padding: 0 10px;
+}
+.footer__buttom__link a:hover{
+	color:blue;
+}
+.clients{
+	padding: 100px 0;
+
+}
+.clients>.container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.clients__content__box__span1{
+	margin:0 auto;
+	text-align: center;
+	font-size: 50px;
+	color: #261B59;
+
+}
+.clients__box{
+	width: 50%;
+}
+.clients__content__box{
+	padding: 60px 30px 30px 30px;
+	width: 400px;
+	height: 500px;
+	background-color: #F5F6F8;
+	display: block;
+	justify-content: space-between;
+	text-align: center;
+
+}
+.clients__content__box__text{
+	margin: 0 auto;
+	text-align: center;
+	font-size: 12px;
+}
+.clients__content__box__title{
+	margin: 0 auto;
+	font-size: 30px;
 	text-align: center;
 }
